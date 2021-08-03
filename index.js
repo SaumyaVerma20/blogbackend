@@ -41,6 +41,10 @@ app.post("/api/upload",upload.single("file"),(req,res)=>{
     res.status(200).json("image uploaded");
 })
 
+app.get('/',(req,res)=>{
+  res.send('this is my server');
+})
+
 app.use("/api/auth",authRoute);
 app.use("/api/users",userRoute);
 app.use("/api/posts", postRoute);
