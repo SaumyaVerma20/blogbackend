@@ -1,10 +1,10 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "dependencies": {
     "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^5.13.2",
@@ -12,11 +12,19 @@
     "nodemon": "^2.0.12",
     "path": "^0.12.7"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaumyaVerma20/blogbackend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SaumyaVerma20/blogbackend/issues"
+  },
+  "homepage": "https://github.com/SaumyaVerma20/blogbackend#readme",
+  "description": ""
 }
